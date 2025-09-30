@@ -4,11 +4,13 @@ function getComputerChoice() {
 
     if (randomNum === 0) {
         return "Rock";
-   }else if (randomNum === 1) {
-        return "Paper";
-   }
-     else { 
+     }else if (randomNum === 1) {
+        return "Paper";  
+     }else { 
         return "Scissors";
    }
 }
-console.log(getComputerChoice())
+
+//create a function that takes the user choice and returns it
+
+function 
