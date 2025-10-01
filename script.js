@@ -13,4 +13,10 @@ function getComputerChoice() {
 
 //create a function that takes the user choice and returns it
 
-function 
+function getHumanChoice() {
+   const humanChoice = prompt("Choose between Rock, Paper, or Scissors!", "enter your choice")
+      return humanChoice
+      }
+
+
+console.log(getHumanChoice())
